@@ -17,7 +17,7 @@
 		</div>
 
 		<div class="image-container">
-			<img src="images/drone.svg" alt="Drone" />
+			<img src="/images/drone.svg" alt="Drone" />
 		</div>
 
 		<div class="container">
