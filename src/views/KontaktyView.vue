@@ -83,7 +83,7 @@
 	</footer>
 
 	<div class="cont">
-		<img class="ob1" src="/images/aktzel.svg" alt="" />
+		<img class="ob1" src="/images/Aktzel.svg" alt="" />
 
 		<img class="ob2" src="/images/obilie.svg" alt="" />
 	</div>
