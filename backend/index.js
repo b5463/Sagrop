@@ -155,12 +155,13 @@ class Application {
   /**
    * Write the API URL to the .fe.env file.
    * @private
-   */
+   
   _writeApiUrlToFile() {
     const feEnvFilePath = path.join(__dirname, '../.env');
     const feEnvContent = `VITE_API_ENDPOINT=${process.env.API_ENDPOINT}:${this.port}${process.env.API_PATH || '/api/'}v${process.env.API_VERSION.split('.')[0]}`;
     fs.writeFileSync(feEnvFilePath, feEnvContent);
   }
+  */
 
   /**
    * Handle unhandled promise rejections.
@@ -197,7 +198,7 @@ class Application {
     this._applyCSP();
     this._mountRoutes();
     this._startServer();
-    this._writeApiUrlToFile();
+    //this._writeApiUrlToFile();
     this._handleUnhandledRejections();
     this._handleUncaughtExceptions();
   }
